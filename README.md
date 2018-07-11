@@ -1,5 +1,7 @@
 # data_science_from_scratch
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 ### Getting started
 
 1.  Clone the repo
