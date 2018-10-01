@@ -1,4 +1,4 @@
-from dsfs.linear_algebra.vectors_intro import sum_of_squares, dot
+from dsfs.linear_algebra.vectors import sum_of_squares, dot
 from collections import Counter
 import math
 import matplotlib.pyplot as plt

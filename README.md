@@ -9,11 +9,13 @@
 2.  Add dsfs to sys.path:
 
     Inside .bashrc or .bash_profile:
+
     ```shell
     export PYTHONPATH="${PYTHONPATH}:/Users/.../[PATH_TO_dsfs]/"
     ```
+
     e.g
-    
+
     ```shell
     export PYTHONPATH="${PYTHONPATH}:/Users/.../data_science_from_scratch/"
     ```
@@ -22,7 +24,7 @@
 
 4.  ```PY
     python
-    >>> from statistics.stats_intro import variance as vrc
+    >>> from statistics.stats_base import variance as vrc
     >>> x = [1,2,3,4,5]
     >>> vrc(x)
     2.5
