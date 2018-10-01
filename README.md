@@ -11,7 +11,7 @@
     Inside .bashrc or .bash_profile:
 
     ```shell
-    export PYTHONPATH="${PYTHONPATH}:/Users/.../dsfs/"
+    export PYTHONPATH="${PYTHONPATH}:/Users/.../[DIRECTORY_CONTAINING_dsfs]/"
     ```
 
 3.  `source .bash_profile` or Restart the terminal.
