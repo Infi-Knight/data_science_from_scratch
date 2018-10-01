@@ -4,20 +4,24 @@
 
 ### Getting started
 
-1.  Clone the repo
+1.  Clone the repo: `git clone https://github.com/Infi-Knight/data_science_from_scratch`
 
 2.  Add dsfs to sys.path:
 
     Inside .bashrc or .bash_profile:
-
     ```shell
-    export PYTHONPATH="${PYTHONPATH}:/Users/.../[DIRECTORY_CONTAINING_dsfs]/"
+    export PYTHONPATH="${PYTHONPATH}:/Users/.../[PATH_TO_dsfs]/"
+    ```
+    e.g
+    
+    ```shell
+    export PYTHONPATH="${PYTHONPATH}:/Users/.../data_science_from_scratch/"
     ```
 
 3.  `source .bash_profile` or Restart the terminal.
 
 4.  ```PY
-    $ python
+    python
     >>> from statistics.stats_intro import variance as vrc
     >>> x = [1,2,3,4,5]
     >>> vrc(x)
